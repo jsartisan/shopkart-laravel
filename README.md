@@ -17,29 +17,29 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 
 <p>Next, add the service provider to app/config/app.php. :</p>
 
-<code>
+```php
 # app.php
 'providers' => [
     // ..
     JSArtisan\Shopkart\ShopkartServiceProvider::class,
     
 ]
-</code>
+```
 
 <p>Also add the facade. :</p>
 
-<code>
+```php
 # app.php
 'aliases' => [
     // ..
     'Shopkart'  => JSArtisan\Shopkart\Facades\Shopkart::class,
     
 ]
-</code>
+```
 
 <p>Now add your flipkart and amazon affilate id credentials in services.php
 
-<code>
+```php
 # services.php
 return [
 
@@ -56,7 +56,7 @@ return [
 		'client_secret' =>  'your_flipkart_client_secret',
 	],
 ];
-</code>
+```
 
 <h2>Usage</h2>
 
@@ -64,9 +64,9 @@ return [
 
 <p>To search for product in amazon api , write : </p>
 
-<code>
+```php
 	Shopkart::with('amazon')->search('PS3','Electronics');
-</code>
+```
 
 <p>This will return list of products based on Keyword 'PS3'.The important thing is you have to pass the Search Index for Amazon Search API Request which is 'Electronics' in our case. Check more about it here - <a href="http://docs.aws.amazon.com/AWSECommerceService/latest/DG/SearchIndices.html">Search Indices</a>.</p>
 
@@ -76,9 +76,9 @@ return [
 
 <p>To search for products in flipkart api, write : </p>
 
-<code>
+```php
 	Shopkart::with('flipkart')->search('PS3',5);
-</code>
+```
 
 <p>This will return list of flipkart products from their api based on keyword specified.('PS3' in our case).</p>
 
