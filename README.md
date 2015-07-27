@@ -6,13 +6,13 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 
 <p>Pull this package in through Composer.</p>
 
-<code>
+```js
 {
     "require": {
         "jsartisan/shopkart-laravel": "0.1.*"
     }
 }
-</code>
+```
 
 
 <p>Next, add the service provider to app/config/app.php. :</p>
@@ -37,7 +37,7 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 ]
 ```
 
-<p>Now add your flipkart and amazon affilate id credentials in services.php
+<p>Now add your flipkart and amazon affilate id credentials in services.php</p>
 
 ```php
 # services.php
