@@ -48,17 +48,17 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 
 	// ..
 	'amazon' => [
-		'client_id'     =>  'your_amazon_client_id',
-		'client_secret' =>  'your_amazon_client_secret/',
-		'tag'           =>  'your_amazon_id_tag',
-		'country'       =>  'your_country_code'
+		'client_id'     	=>  'your_amazon_client_id',
+		'client_secret' 	=>  'your_amazon_client_secret/',
+		'tag'           	=>  'your_amazon_id_tag',
+		'country'       	=>  'your_country_code'
 	],
 	
 	'flipkart' => [
-		'client_id'     =>  'your_flipkart_client_id',
-		'client_secret' =>  'your_flipkart_client_secret',
-		'country'       =>  '',
-        	'tag'           =>  ''
+		'client_id'     	=>  'your_flipkart_client_id',
+		'client_secret' 	=>  'your_flipkart_client_secret',
+		'country'       	=>  '',
+		'tag'           	=>  ''
 	],
 ```
 
