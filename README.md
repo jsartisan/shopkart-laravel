@@ -41,7 +41,6 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 
 ```php
 # services.php
-return [
 
 	// ..
 	'amazon' => [
@@ -55,7 +54,6 @@ return [
 		'client_id'     =>  'your_flipkart_client_id',
 		'client_secret' =>  'your_flipkart_client_secret',
 	],
-];
 ```
 
 <h2>Usage</h2>
