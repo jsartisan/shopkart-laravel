@@ -7,6 +7,8 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 <p>Pull this package in through Composer.</p>
 
 ```js
+#composer.json
+
 {
     "require": {
         "jsartisan/shopkart-laravel": "0.1.*"
@@ -19,6 +21,7 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 
 ```php
 # app.php
+
 'providers' => [
     // ..
     JSArtisan\Shopkart\ShopkartServiceProvider::class,
@@ -30,6 +33,7 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 
 ```php
 # app.php
+
 'aliases' => [
     // ..
     'Shopkart'  => JSArtisan\Shopkart\Facades\Shopkart::class,
