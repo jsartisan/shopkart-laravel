@@ -1,5 +1,5 @@
 {
-    "name": "jsartisan/Shopkart",
+    "name": "jsartisan/shopkart-laravel",
     "description": "Simple Product Search Package for Flipkart",
     "license": "MIT",
     "keywords": ["flipkart"],
