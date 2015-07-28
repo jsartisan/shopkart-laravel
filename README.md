@@ -18,7 +18,7 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 
 <p>then run the composer update.</p>
 
-<code
+<code>
 	composer update
 </code>
 
