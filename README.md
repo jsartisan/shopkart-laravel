@@ -20,7 +20,7 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 
 <code
 	composer update
-</code?
+</code>
 
 
 <p>Next, add the service provider to app/config/app.php. :</p>
